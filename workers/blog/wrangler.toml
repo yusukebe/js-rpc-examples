@@ -1,0 +1,14 @@
+compatibility_date = "2024-05-04"
+main = "./src/index.ts"
+name = "blog"
+
+compatibility_flags = ["nodejs_compat"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "js-rpc-blog-app"
+database_id = "83789f49-111e-40d8-a18e-dbc04a97b14d" # replace it with your database id
+migrations_dir = "drizzle/migrations"
+
+[dev]
+port = 8782

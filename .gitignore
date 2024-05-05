@@ -1,8 +1,8 @@
 dist
 node_modules
 .wrangler
-
-yarn.lock
+.dev.vars
+.hono
 
 .yarn/*
 !.yarn/patches

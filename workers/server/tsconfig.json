@@ -1,6 +1,16 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
+    "types": [
+      "vite/client",
+      "@cloudflare/workers-types"
+    ],
+    "jsx": "react-jsx",
+    "jsxImportSource": "hono/jsx",
     "outDir": "dist"
-  }
+  },
+  "include": [
+    "app/**/*.ts",
+    "app/**/*.tsx"
+  ]
 }

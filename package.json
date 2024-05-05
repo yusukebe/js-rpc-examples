@@ -1,11 +1,17 @@
 {
   "name": "js-rpc-examples",
   "scripts": {
-    "dev": "concurrently \"yarn calc:dev\" \"yarn server:dev\"",
+    "dev": "concurrently \"yarn calc:dev\" \"yarn blog:dev\" \"yarn server:watch\" \"yarn server:preview\"",
+    "build": "concurrently \"yarn calc:build\" \"yarn blog:build\"",
     "calc:build": "yarn workspace calc build",
     "calc:dev": "yarn workspace calc dev",
     "calc:deploy": "yarn workspace calc deploy",
-    "server:dev": "yarn workspace server dev",
+    "blog:build": "yarn workspace blog build",
+    "blog:dev": "yarn workspace blog dev",
+    "blog:deploy": "yarn workspace blog deploy",
+    "server:watch": "yarn workspace server watch",
+    "server:preview": "yarn workspace server preview",
+    "server:build": "yarn workspace server build",
     "server:deploy": "yarn workspace server deploy"
   },
   "workspaces": {
@@ -19,6 +25,8 @@
     "@hono/eslint-config": "^0.0.4",
     "concurrently": "^8.2.2",
     "eslint": "^8.55.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.5",
     "wrangler": "^3.53.1"
   }
 }

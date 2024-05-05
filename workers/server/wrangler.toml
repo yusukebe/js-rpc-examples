@@ -1,8 +1,10 @@
 compatibility_date = "2024-05-04"
-main = "./src/index.ts"
 name = "server"
+compatibility_flags = ["nodejs_compat"]
+
 services = [
-  { binding = "CALC", service = "calc" }
+  { binding = "CALC", service = "calc" },
+  { binding = "BLOG", service = "blog" }
 ]
 
 [dev]

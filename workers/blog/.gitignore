@@ -1,0 +1,2 @@
+drizzle/migrations/*
+!drizzle/migrations/.gitkeepyarn.lock

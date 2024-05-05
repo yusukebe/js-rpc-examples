@@ -1,0 +1,20 @@
+{
+  "name": "blog",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "wrangler dev",
+    "migration:generate": "drizzle-kit generate:sqlite",
+    "migration:apply": "wrangler d1 migrations apply js-rpc-blog-app --local",
+    "migration:apply:remote": "wrangler d1 migrations apply js-rpc-blog-app --remote",
+    "deploy": "wrangler deploy --minify"
+  },
+  "types": "dist/index.d.ts",
+  "packageManager": "yarn@4.2.1",
+  "dependencies": {
+    "drizzle-orm": "^0.30.10"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.20.17"
+  }
+}
