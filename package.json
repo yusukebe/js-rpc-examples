@@ -1,0 +1,12 @@
+{
+  "name": "js-rpc-examples",
+  "workspaces": [
+    "projects/*"
+  ],
+  "packageManager": "yarn@4.2.1",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240502.0",
+    "concurrently": "^8.2.2",
+    "wrangler": "^3.53.1"
+  }
+}
