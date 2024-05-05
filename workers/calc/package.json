@@ -1,0 +1,11 @@
+{
+  "name": "calc",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy --minify"
+  },
+  "types": "dist/index.d.ts",
+  "packageManager": "yarn@4.2.1"
+}

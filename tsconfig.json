@@ -12,4 +12,8 @@
       "@cloudflare/workers-types"
     ]
   },
+  "include": [
+    "workers/**/src/**/*.ts",
+    "workers/**/src/**/*.tsx"
+  ]
 }
