@@ -5348,21 +5348,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"server@workspace:workers/server":
-  version: 0.0.0-use.local
-  resolution: "server@workspace:workers/server"
-  dependencies:
-    "@hono/vite-cloudflare-pages": "npm:^0.2.4"
-    "@hono/vite-dev-server": "npm:^0.12.0"
-    "@hono/zod-validator": "npm:^0.2.1"
-    hono: "npm:^4.3.2"
-    honox: "npm:^0.1.15"
-    nodemon: "npm:^3.1.0"
-    vite: "npm:^5.2.11"
-    zod: "npm:^3.23.6"
-  languageName: unknown
-  linkType: soft
-
 "set-function-length@npm:^1.2.1":
   version: 1.2.2
   resolution: "set-function-length@npm:1.2.2"
@@ -5982,6 +5967,21 @@ __metadata:
   checksum: 10c0/664b8d68e4f5152ae16bd2041af1bbaf11c43630ac461835bc31ff7d019913b33e465386e09f66dc1037d7aeefbb06939e0173787c063319bc2bd30c3b9ad8e4
   languageName: node
   linkType: hard
+
+"web@workspace:workers/web":
+  version: 0.0.0-use.local
+  resolution: "web@workspace:workers/web"
+  dependencies:
+    "@hono/vite-cloudflare-pages": "npm:^0.2.4"
+    "@hono/vite-dev-server": "npm:^0.12.0"
+    "@hono/zod-validator": "npm:^0.2.1"
+    hono: "npm:^4.3.2"
+    honox: "npm:^0.1.15"
+    nodemon: "npm:^3.1.0"
+    vite: "npm:^5.2.11"
+    zod: "npm:^3.23.6"
+  languageName: unknown
+  linkType: soft
 
 "which-boxed-primitive@npm:^1.0.2":
   version: 1.0.2

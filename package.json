@@ -1,7 +1,7 @@
 {
   "name": "js-rpc-examples",
   "scripts": {
-    "dev": "concurrently \"yarn calc:dev\" \"yarn blog:dev\" \"yarn server:watch\" \"yarn server:preview\"",
+    "dev": "concurrently \"yarn calc:dev\" \"yarn blog:dev\" \"yarn web:watch\" \"yarn web:preview\"",
     "build": "concurrently \"yarn calc:build\" \"yarn blog:build\"",
     "calc:build": "yarn workspace calc build",
     "calc:dev": "yarn workspace calc dev",
@@ -9,10 +9,10 @@
     "blog:build": "yarn workspace blog build",
     "blog:dev": "yarn workspace blog dev",
     "blog:deploy": "yarn workspace blog deploy",
-    "server:watch": "yarn workspace server watch",
-    "server:preview": "yarn workspace server preview",
-    "server:build": "yarn workspace server build",
-    "server:deploy": "yarn workspace server deploy"
+    "web:watch": "yarn workspace web watch",
+    "web:preview": "yarn workspace web preview",
+    "web:build": "yarn workspace web build",
+    "web:deploy": "yarn workspace web deploy"
   },
   "workspaces": {
     "packages": [
