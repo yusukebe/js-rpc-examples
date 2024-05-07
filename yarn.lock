@@ -961,12 +961,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@hono/vite-cloudflare-pages@npm:^0.2.4":
-  version: 0.2.5
-  resolution: "@hono/vite-cloudflare-pages@npm:0.2.5"
+"@hono/vite-cloudflare-pages@npm:^0.3.0":
+  version: 0.3.0
+  resolution: "@hono/vite-cloudflare-pages@npm:0.3.0"
   peerDependencies:
     hono: "*"
-  checksum: 10c0/85881a4adbc5ee7e4cfb2eab49e36e45cbf08bf82b7eb8d3f41aa20c1fe29951c1a1dc9e810fb1ea24fb141a55120d27b3e08640043d6160ad5ff77a153d481a
+  checksum: 10c0/3dc170f16efbfbe9b0e3ceeb4b58b6c8c139c0b6ba60a3f7215c463ba3807ec757009977305ce9e3162c83832e1c138c0b32a974e312c4bbc8d10fa8d8445403
   languageName: node
   linkType: hard
 
@@ -5972,7 +5972,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "web@workspace:workers/web"
   dependencies:
-    "@hono/vite-cloudflare-pages": "npm:^0.2.4"
+    "@hono/vite-cloudflare-pages": "npm:^0.3.0"
     "@hono/vite-dev-server": "npm:^0.12.0"
     "@hono/zod-validator": "npm:^0.2.1"
     hono: "npm:^4.3.2"
